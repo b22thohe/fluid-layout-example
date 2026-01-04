@@ -1,17 +1,17 @@
 // Abstracts
-@use 'abstracts' as abs;
+@use 'abstracts/index' as abs;
 
 // Base
-@use 'base' as base;
+@use 'base/index' as base;
 
 // Components
-@use 'components' as comp;
+@use 'components/index' as comp;
 
 // Layout
-@use 'layout' as lay;
+@use 'layout/index' as lay;
 
 // Pages
-@use 'pages' as page;
+@use 'pages/index' as page;
 
 // Utilities
-@use 'utilities' as util;
+@use 'utilities/index' as util;
