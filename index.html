@@ -46,10 +46,20 @@
     <!-- Main content -->
     <main id="main" role="main">
         <h1 class="--font-h1 m-m">A Fluid Layout Example</h1>
-        <p class="lead --font-lead m-xs">A fluid responsive layout example inspired by <a href="">Andy Bell's philosophies</a>.</p>
-        <h2 class="--font-h2 m-s">Using HTML and Sass</h2>
-        <p class="--font-paragraph m-2xs">Supported by systematic fluidity calculations from Utopia.</p>
+        <article>
+            <p class="lead --font-lead m-xs">A fluid responsive layout example inspired by <a href="">Andy Bell's philosophies</a>.</p>
+            <h2 class="--font-h2 m-s">Using HTML and Sass</h2>
+            <p class="--font-paragraph m-2xs">Supported by systematic fluidity calculations from Utopia.</p>
+        </article>
+        <article class="bordered">
+            <h2 class="--font-h2 m-s">Another article</h2>
+            <p class="lead --font-lead m-xs">This is inside a separate article tag. Let's see how a couple of buttons behave in a fluid responsive layout.</p>
+            <div class="m-m flex-container">
+                <button class="btn cancel-btn --font-btn pt-s pr-m pb-s pl-m">Cancel</button>
+                <button class="btn cta-btn --font-btn pt-s pr-m pb-s pl-m">OK</button>
+            </div>
 
+        </article>
     </main>
     <footer class="footer">
 
