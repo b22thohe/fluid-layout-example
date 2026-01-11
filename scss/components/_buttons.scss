@@ -1,0 +1,14 @@
+@use '../abstracts/index' as abs;
+
+.btn {
+  border: none;
+  border-radius: 0.5em;
+}
+
+.cta-btn {
+  @include abs.button-3d(#a2e9d3, #7adfbe, #6fcbad, #549d80);
+}
+
+.cancel-btn {
+  @include abs.button-3d(#ff6b6b, #ee5a5a, #cc5555, #aa4444);
+}
