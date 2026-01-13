@@ -1,0 +1,6 @@
+@use '../abstracts/index' as abs;
+
+.attribution-heart {
+  color: abs.$attribution-red;
+  font-size: .875rem;
+}
